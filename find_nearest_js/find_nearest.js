@@ -34,7 +34,7 @@ var name_add = {}
 //This one reads the whole file line by line
 
 var lineReader = require('readline').createInterface({
-  input: require('fs').createReadStream('/Users/Tarren/Desktop/Coding/nodejs/nearest_address/find_nearest_js/badminton_clubs.txt')
+  input: require('fs').createReadStream('badminton_clubs.txt')
 });
 
 
